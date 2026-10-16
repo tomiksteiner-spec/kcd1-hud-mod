@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "kcd_hud",
+  "version": "1.0.0",
+  "name": "KCD1 HUD & Stamina",
+  "description": "KCD1 Hud a Stamina pro Fabric 1.21.1",
+  "authors": ["User"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.kcdhud.KcdHudMod"],
+    "client": ["com.example.kcdhud.client.KcdHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
